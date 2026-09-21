@@ -1,0 +1,28 @@
+{
+  "passed": 22,
+  "cases": [
+    "valid plaintext metadata",
+    "truncated header",
+    "wrong FIH",
+    "overflow CNT offset",
+    "excessive entry count",
+    "entry outside package",
+    "invalid name offset",
+    "encrypted param rejected",
+    "unknown metadata flags rejected",
+    "duplicate param rejected",
+    "no param rejected",
+    "path traversal ignored",
+    "encrypted optional image ignored",
+    "recovered metadata PPSA01442",
+    "recovered metadata PPSA08560",
+    "recovered metadata PPSA02343",
+    "recovered metadata PPSA04181",
+    "recovered metadata PPSA13427",
+    "recovered metadata PPSA04029",
+    "recovered metadata PPSA23226",
+    "recovered metadata PPSA21567",
+    "recovered metadata PPSA15211"
+  ],
+  "scope": "Host execution of exact C PKG parser; fixtures use repacked metadata, not full game packages."
+}

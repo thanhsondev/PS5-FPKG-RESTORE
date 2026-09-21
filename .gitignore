@@ -1,0 +1,24 @@
+# Build output
+build/
+dist/
+*.o
+*.exe
+*.debug.elf
+*.zip
+
+# Release binary — publish via GitHub Releases
+PS5_FPKG_RESTORE.elf
+
+# Console evidence (contains system databases / logs)
+verification/
+CONSOLE_VERIFIED.json
+*.db
+
+# Never commit game content
+*.pkg
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+# Chỉ ghép đoạn này sau payload nền tảng trong cấu hình đang có.
+# Bỏ các dòng chú thích nếu autoloader của bạn không hỗ trợ chú thích.
+# Không giữ đồng thời dòng M2_RESTORE_PS5.elf bản cũ.
+PS5_FPKG_RESTORE.elf
+
+!3000
+
+shadowmountplus.elf

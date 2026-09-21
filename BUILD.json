@@ -1,0 +1,48 @@
+{
+  "file": "PS5_FPKG_RESTORE.elf",
+  "size": 165328,
+  "sha256": "f4752448ea03bef0a1fc30b25b31291adb903589309bf32427a41bfd7a18bcc3",
+  "entry": 0,
+  "program_headers": 4,
+  "load_segments": [
+    {
+      "offset": 16384,
+      "address": 0,
+      "filesz": 79026,
+      "memsz": 79026,
+      "flags": 7,
+      "alignment": 16384
+    },
+    {
+      "offset": 98304,
+      "address": 81920,
+      "filesz": 49504,
+      "memsz": 49504,
+      "flags": 6,
+      "alignment": 16384
+    },
+    {
+      "offset": 163840,
+      "address": 147456,
+      "filesz": 248,
+      "memsz": 3224,
+      "flags": 6,
+      "alignment": 16384
+    }
+  ],
+  "version": "1.1-EN-VI",
+  "compiler": "clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)\nTarget: x86_64-w64-windows-gnu\nThread model: posix\nInstalledDir: C:/Users/NgoPhiPhuong/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20260616-ucrt-x86_64/bin\nConfiguration file: C:/Users/NgoPhiPhuong/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20260616-ucrt-x86_64/bin/x86_64-w64-windows-gnu.cfg",
+  "sdk_asset": "pacbrew-repo/v0.40.2/ps5-payload-dev.tar.gz",
+  "sdk_sha256": "a85f65de418a8e6a898c6c3e3c870d50fff7618a200e4dd59ea9692af6ecec4d",
+  "source_hashes": {
+    "build.py": "a91abaed55fcfbb144914ce6c904679d041593ed31bc373c6d6879018e99f229",
+    "src/pkg_reader.h": "b792a202c96f2b9b4b0000f09719335367358e128f285391da11b57851218ae7",
+    "src/storage_restore.c": "b4700e4e4c774219a471df54ab8d3f36726a56b56dcdd3ed0989ae7f44e0b784"
+  },
+  "console_runtime_verified": true,
+  "game_launch_verified": false,
+  "reboot_verified": false,
+  "native_registration_verified": true,
+  "console_test_firmware": "10.01",
+  "console_test_model": "PS5 Pro"
+}

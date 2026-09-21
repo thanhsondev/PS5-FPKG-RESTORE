@@ -1,0 +1,17 @@
+{
+  "elf_sha256": "f4752448ea03bef0a1fc30b25b31291adb903589309bf32427a41bfd7a18bcc3",
+  "console": "PS5 Pro",
+  "firmware": "10.01",
+  "native_registration_verified": true,
+  "database_integrity": "ok",
+  "game_launch_verified": false,
+  "reboot_verified": false,
+  "ui_screenshot_verified": false,
+  "registered": 11,
+  "internal_apps": 2,
+  "m2_games": 9,
+  "repeat_run_created": 0,
+  "system_language_id": 28,
+  "selected_language": "vi",
+  "english_console_language_tested": false
+}
